@@ -11,12 +11,16 @@
     background-repeat: no-repeat;
 }
 
-.inicio ul {background-color: blueviolet; width: 100%; height: 30px;}
+.inicio ul {
+    background-color: blueviolet;
+    width: 100%;
+    height: 30px;
+}
 
 .inicio ul {
-    display: grid; grid-template-columns: auto auto auto auto ;
-    justify-items: center
-;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
 }
 
 .inicio nav ul li {
@@ -24,7 +28,8 @@
     display: inline-block;
     padding-top: 5px;
     font-family: 'Lucida Sans',
-        'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+        'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
 }
 
 .inicio ul li a {
@@ -32,15 +37,68 @@
     text-decoration: none;
 }
 
-
-.logosredes  {
+.saludo1 {
+    animation-duration: 2s;
+    animation-name: iniciosaludo;
+    animation-iteration-count: initial;
+ }
+ 
+ 
+ @keyframes iniciosaludo {
+    0% {
+      opacity: 0; transform: scale(1.2)
+    }
+    100% {
+      opacity: 1; transform: scale(1)
+    }
+ }
+ 
+.logosredes {
     display: flex;
-  
-; justify-content: center;
+
+    ;
+    justify-content: center;
 }
 
-.logosredes img {Margin: 20px}
+.logosredes img {
+    Margin: 20px
+}
 
+.ins:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.lnk:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.be:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.ml:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
 
 /* contrataciones */
 
@@ -85,14 +143,18 @@ form legend {
     height: 100px;
     display: flex;
     justify-content: right;
-    }
+}
 
-.textosobremi { margin: 5px;
+.textosobremi {
+    margin: 5px;
 
 }
 
-table {display: flex; justify-content: center;
-    color: white; margin-top: 20px;
+table {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
 }
 
 .body5 {
@@ -110,12 +172,16 @@ table {display: flex; justify-content: center;
     margin-left: 300px;
 }
 
-header ul {background-color: blueviolet; width: 100%; height: 30px;}
+header ul {
+    background-color: blueviolet;
+    width: 100%;
+    height: 30px;
+}
 
 .header ul {
-    display: grid; grid-template-columns: auto auto auto auto auto;
-    justify-items: center
-;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
 }
 
 
@@ -124,7 +190,8 @@ header ul {background-color: blueviolet; width: 100%; height: 30px;}
     display: inline-block;
     padding-top: 5px;
     font-family: 'Lucida Sans',
-        'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+        'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
 }
 
 nav ul li a {
@@ -176,37 +243,45 @@ footer {
 /* Media Q */
 
 @media screen and (max-width: 1200px) {
-    
-Body {background-color: blueviolet;}
 
-.inicio ul {background-color: blueviolet;}
+    Body {
+        background-color: blueviolet;
+    }
 
-.inicio ul {
-    display: grid; grid-template-rows: auto auto auto auto ;
-    justify-items: center
-;
-}
+    .inicio ul {
+        background-color: blueviolet;
+    }
 
-.inicio nav ul li {
+    .inicio ul {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        justify-items: center;
+    }
 
-display: flex;
-    padding-top: 5px;
-    font-family: 'Lucida Sans',
-        'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
-}
+    .inicio nav ul li {
 
-.inicio ul li a {
-    list-style: none;
-    text-decoration: none;
-}
+        display: flex;
+        padding-top: 5px;
+        font-family: 'Lucida Sans',
+            'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        ;
+    }
+
+    .inicio ul li a {
+        list-style: none;
+        text-decoration: none;
+    }
 
 
-.logosredes  {
-    display: flex;
-  
-; justify-content: center;
-}
+    .logosredes {
+        display: flex;
 
-.logosredes img {Margin: 20px}
+        ;
+        justify-content: center;
+    }
+
+    .logosredes img {
+        Margin: 20px
+    }
 
 }
