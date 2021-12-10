@@ -125,6 +125,7 @@ form legend {
     background-repeat: no-repeat;
 }
 
+.ahre {width: 20px; height: 20px;}
 
 /* servicios */
 
@@ -150,12 +151,12 @@ form legend {
 
 }
 
-table {
+/* table {
     display: flex;
     justify-content: center;
     color: white;
     margin-top: 20px;
-}
+} */
 
 .body5 {
     background: url(images/retro-2426631_1920.png);
