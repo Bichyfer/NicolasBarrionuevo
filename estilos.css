@@ -160,7 +160,7 @@ form legend {
 
 .body5 {
     background: url(images/retro-2426631_1920.png);
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
@@ -202,6 +202,19 @@ nav ul li a {
 
 nav ul li a {
     color: aliceblue;
+}
+
+/* Menu bootstrap */
+
+.bg-light {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    margin-top: -10px;
+}
+           
+.btn  {background-color: #6f42c1; margin-left: 45px; margin-right: 45px; color: cornsilk; padding: 10px;
+
+
 }
 
 h1 {
