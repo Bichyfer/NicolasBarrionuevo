@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Pagina Inicio */
+
+.body1 {
+    background: url(../images/logofondo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.inicio ul {
+    background-color: blueviolet;
+    width: 100%;
+    height: 30px;
+}
+
+.inicio ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+}
+
+.inicio nav ul li {
+
+    display: inline-block;
+    padding-top: 5px;
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
+}
+
+.inicio ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.saludo1 {
+    animation-duration: 2s;
+    animation-name: iniciosaludo;
+    animation-iteration-count: initial;
+ }
+ 
+ 
+ @keyframes iniciosaludo {
+    0% {
+      opacity: 0; transform: scale(1.2)
+    }
+    100% {
+      opacity: 1; transform: scale(1)
+    }
+ }
+ 
+.logosredes {
+    display: flex;
+
+    ;
+    justify-content: center;
+}
+
+.logosredes img {
+    Margin: 20px
+}
+
+.ins:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.lnk:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.be:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.ml:hover {
+    padding: 8px 14px;
+    ;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+/* contrataciones */
+
+.body2 {
+    background: url(images/retro-2426631_1920.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+form label {
+    color: blanchedalmond;
+}
+
+form legend {
+    color: blanchedalmond;
+}
+
+
+/* ¿por qué trabajar conmigo? */
+
+.body3 {
+    background: url(images/retro-2426631_1920.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ahre {width: 20px; height: 20px;}
+
+/* servicios */
+
+.body4 {
+    background: url(images/retro-2426631_1920.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Sobre mi */
+
+.foto {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+}
+
+.textosobremi {
+    margin: 5px;
+
+}
+
+/* table {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+} */
+
+.body5 {
+    background: url(images/retro-2426631_1920.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+/* varios */
+
+.youtube {
+    padding: 11px;
+    margin-left: 300px;
+}
+
+header ul {
+    background-color: blueviolet;
+    width: 100%;
+    height: 30px;
+}
+
+.header ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+}
+
+
+.header nav ul li {
+
+    display: inline-block;
+    padding-top: 5px;
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: aliceblue;
+}
+
+/* Menu bootstrap */
+
+.bg-light {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    margin-top: -10px;
+}
+           
+.btn  {background-color: #6f42c1; margin-left: 45px; margin-right: 45px; color: cornsilk; padding: 10px;
+
+
+}
+
+h1 {
+    color: azure;
+}
+
+p {
+    font-size: 18px;
+    color: azure;
+    font-style: normal;
+    box-shadow: 10px black;
+    -webkit-text-stroke: 0.1px black;
+}
+
+.back {
+    size: 100px;
+    margin-left: 1130px;
+}
+
+
+
+
+.saludo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-align: center;
+    border-top-width: 30px;
+    margin-top:
+        450px;
+}
+
+/* footer */
+
+footer {
+    color: aliceblue;
+}
+
+/* Media Q */
+
+@media screen and (max-width: 1200px) {
+
+    Body {
+        background-color: blueviolet;
+    }
+
+    .inicio ul {
+        background-color: blueviolet;
+    }
+
+    .inicio ul {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        justify-items: center;
+    }
+
+    .inicio nav ul li {
+
+        display: flex;
+        padding-top: 5px;
+        font-family: 'Lucida Sans',
+            'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        ;
+    }
+
+    .inicio ul li a {
+        list-style: none;
+        text-decoration: none;
+    }
+
+
+    .logosredes {
+        display: flex;
+
+        ;
+        justify-content: center;
+    }
+
+    .logosredes img {
+        Margin: 20px
+    }
+
+}
