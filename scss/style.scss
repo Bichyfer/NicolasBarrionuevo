@@ -32,20 +32,31 @@
     }
 }
 
+.saludo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-align: center;
+    border-top-width: 30px;
+    margin-top: 450px;
+}
+
 .logosredes {
     display: flex;
     justify-content: center;
 
     img {
-        Margin: 20px;
+        Margin: 30px;
     }
 }
+
 
 .ins:hover,
 .lnk:hover,
 .be:hover,
 .ml:hover {
-    padding: 8px 14px;
+    padding: 3px 5px;
     transition-property: all;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
@@ -59,9 +70,13 @@
     background-repeat: no-repeat;
 }
 
-.superior {padding: 20px;}
+.superior {
+    padding: 20px;
+}
 
-h2 {padding: 10px;}
+h2 {
+    padding: 10px;
+}
 
 form {
 
@@ -76,28 +91,51 @@ h2 {
     color: aliceblue;
 }
 
-.mb-3, .pad {padding: 10px;}
-
-.form-check {padding-left: 50px;}
-
-.comenta {padding-top: 30px;}
-
-.inferior {padding-bottom: 8px;}
-
-.submit {display: flex;
-align-content: flex-end;
+.mb-3,
+.pad {
+    padding: 10px;
 }
+
+.form-check {
+    padding-left: 50px;
+}
+
+.comenta {
+    padding-top: 30px;
+}
+
+.inferior {
+    padding-bottom: 8px;
+}
+
+.submit {
+    display: flex;
+    align-content: flex-end;
+}
+
 /* ¿por qué trabajar conmigo? */
 
 .body3 {
     background: url(../images/retro-2426631_1920.png);
-    background-size:auto;
+    background-size: auto;
     background-repeat: no-repeat;
 }
+
 
 .ahre {
     width: 20px;
     height: 20px;
+}
+
+.jajaxd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    width: 640px;
+    min-height: 360px;
 }
 
 /* servicios */
@@ -106,6 +144,12 @@ align-content: flex-end;
     background: url(../images/retro-2426631_1920.png);
     background-size: auto;
     background-repeat: no-repeat;
+}
+
+.yutu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Sobre mi */
@@ -123,22 +167,20 @@ align-content: flex-end;
     justify-content: right;
 }
 
-.textosobremi, .cuadrado {
+.textosobremi,
+.cuadrado {
     margin: 20px;
 }
 
-.autofoto {padding: 20px;}
+.autofoto {
+    padding: 20px;
+}
 
 
 
-.card-text {size: 2px; color: black;}
-
-
-/* varios */
-
-.youtube {
-    padding: 11px;
-    margin-left: 300px;
+.card-text {
+    size: 2px;
+    color: black;
 }
 
 
@@ -176,15 +218,7 @@ p {
     margin-left: 1130px;
 }
 
-.saludo1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: aliceblue;
-    letter-spacing: 1px;
-    text-align: center;
-    border-top-width: 30px;
-    margin-top: 450px;
-}
+
 
 /* footer */
 
@@ -192,39 +226,70 @@ footer {
     color: aliceblue;
 }
 
-/* Media Q */
+/* MEDIA QUERIES */
 
-@media screen and (max-width: 1200px) {
-    Body {
-        background-color: blueviolet;
+@media screen and (max-width: 768px) {
+
+    .body1,
+    .body2,
+    .body3,
+    .body4,
+    .body5 {
+        background-position: center;
+        background-size: auto;
     }
 
-    .inicio {
-        ul {
-            background-color: blueviolet;
-            display: grid;
-            grid-template-rows: auto auto auto auto;
-            justify-items: center;
-        }
+    /* Pagina Inicio */
 
-        nav ul li {
-            display: flex;
-            padding-top: 5px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        ul li a {
-            list-style: none;
-            text-decoration: none;
-        }
+    .saludo1 {
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: aliceblue;
+        letter-spacing: 1px;
+        text-align: center;
+        border-top-width: 30px;
+        margin-top: 240px;
     }
 
     .logosredes {
-        display: flex;
-        justify-content: center;
-
-        img {
-            Margin: 20px;
-        }
+        transform: scale(80%);
     }
+}
+
+@media screen and (max-width: 576px) {
+
+    .body1,
+    .body2,
+    .body3,
+    .body4,
+    .body5 {
+        background-position: center;
+        background-size: auto;
+    }
+
+    /* Pagina Inicio */
+
+    .saludo1 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: aliceblue;
+        letter-spacing: 1px;
+        text-align: center;
+        border-top-width: 30px;
+        margin-top: 240px;
+    }
+
+    .logosredes {
+        transform: scale(75%);
+    }
+
+
+
+
+
+
+
+
 }
